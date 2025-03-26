@@ -60,13 +60,6 @@ public class MainActivity extends AppCompatActivity {
         buttonEqual = findViewById(R.id.equal);
         buttonPercent = findViewById(R.id.percent);
 
-//        button0.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                inputDisplay.append("0");
-//            }
-//        })
-
         button0.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
